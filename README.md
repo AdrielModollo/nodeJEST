@@ -41,3 +41,7 @@ yarn add faker
 # Instalar todas as libs 
 
 yarn install
+
+# Executar aplicação
+
+yarn test
