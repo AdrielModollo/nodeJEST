@@ -16,6 +16,8 @@ yarn add sequelize migration:create --name-create-users
 
 yarn sequelize db:migrate
 
+yarn add nodemon -D
+
 # Instalar todas as libs 
 
 yarn install
