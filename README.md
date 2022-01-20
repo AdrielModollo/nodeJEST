@@ -18,6 +18,8 @@ yarn sequelize db:migrate
 
 yarn add nodemon -D
 
+yarn add jest -D
+
 # Instalar todas as libs 
 
 yarn install
