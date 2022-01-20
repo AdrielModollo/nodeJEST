@@ -34,6 +34,10 @@ yarn add bryptjs
 
 yarn add jsonwebtoken
 
+yarn add factory-girl
+
+yarn add faker
+
 # Instalar todas as libs 
 
 yarn install
