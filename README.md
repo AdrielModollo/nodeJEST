@@ -28,6 +28,10 @@ yarn add sqlite3 -D
 
 yarn add supertest -D
 
+npm install -g win-node-env (Regulariza nossa variavel NODE_ENV)
+
+yarn add bryptjs
+
 # Instalar todas as libs 
 
 yarn install
