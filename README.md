@@ -20,6 +20,8 @@ yarn add nodemon -D
 
 yarn add jest -D
 
+yarn jest --init
+
 # Instalar todas as libs 
 
 yarn install
