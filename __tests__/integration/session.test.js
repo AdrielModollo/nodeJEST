@@ -29,7 +29,24 @@ describe("Authentication", () => {
         });
 
         expect(response.status).toBe(200);
-    
     });
+
+    it('should not autenticate with invalid credentials', async() => {
+        const user = await User.create({
+            name: 'Adriel', 
+            email: 'adrielmodollo@outlook.com', 
+            password_hash: "42561"
+        });
+
+        const response = await request(app)
+            .post('/sessions')
+            .send({
+            email: user.email,
+            password: '123456'
+        });
+
+        expect(response.status).toBe(200);
+    });  
 });
+
 
