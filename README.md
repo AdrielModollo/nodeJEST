@@ -26,6 +26,8 @@ yarn add dotenv
 
 yarn add sqlite3 -D
 
+yarn add supertest -D
+
 # Instalar todas as libs 
 
 yarn install
