@@ -32,6 +32,8 @@ npm install -g win-node-env (Regulariza nossa variavel NODE_ENV)
 
 yarn add bryptjs
 
+yarn add jsonwebtoken
+
 # Instalar todas as libs 
 
 yarn install
