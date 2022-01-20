@@ -18,7 +18,7 @@ describe("Authentication", () => {
         const user = await User.create({
             name: 'Adriel', 
             email: 'adrielmodollo@outlook.com', 
-            password_hash: "123123"
+            password_hash: "123456"
         });
 
         const response = await request(app)

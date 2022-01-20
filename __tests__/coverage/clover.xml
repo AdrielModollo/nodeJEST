@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1642706405197" clover="3.2.0">
-  <project timestamp="1642706405197" name="All files">
-    <metrics statements="41" coveredstatements="35" conditionals="13" coveredconditionals="7" methods="10" coveredmethods="8" elements="64" coveredelements="50" complexity="0" loc="41" ncloc="41" packages="5" files="8" classes="8"/>
+<coverage generated="1642707599047" clover="3.2.0">
+  <project timestamp="1642707599047" name="All files">
+    <metrics statements="44" coveredstatements="38" conditionals="15" coveredconditionals="9" methods="11" coveredmethods="9" elements="70" coveredelements="56" complexity="0" loc="44" ncloc="44" packages="5" files="8" classes="8"/>
     <package name="src">
       <metrics statements="14" coveredstatements="12" conditionals="4" coveredconditionals="1" methods="3" coveredmethods="3"/>
       <file name="app.js" path="C:\Users\adriel.modollo_saude\Desktop\nodeJEST\src\app.js">
@@ -37,40 +37,43 @@
       </file>
     </package>
     <package name="src.app.models">
-      <metrics statements="20" coveredstatements="19" conditionals="5" coveredconditionals="4" methods="4" coveredmethods="4"/>
+      <metrics statements="23" coveredstatements="22" conditionals="7" coveredconditionals="6" methods="5" coveredmethods="5"/>
       <file name="User.js" path="C:\Users\adriel.modollo_saude\Desktop\nodeJEST\src\app\models\User.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="2" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
       </file>
       <file name="index.js" path="C:\Users\adriel.modollo_saude\Desktop\nodeJEST\src\app\models\index.js">
         <metrics statements="17" coveredstatements="16" conditionals="5" coveredconditionals="4" methods="3" coveredmethods="3"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="20" count="2" type="cond" truecount="3" falsecount="0"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="4" type="cond" truecount="3" falsecount="0"/>
+        <line num="23" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="27" count="2" type="stmt"/>
+        <line num="28" count="2" type="cond" truecount="1" falsecount="1"/>
         <line num="29" count="0" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
+        <line num="33" count="2" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.config">
       <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
       <file name="database.js" path="C:\Users\adriel.modollo_saude\Desktop\nodeJEST\src\config\database.js">
         <metrics statements="2" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
       </file>
     </package>
     <package name="src.database.migrations">
