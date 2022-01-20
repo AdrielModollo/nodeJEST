@@ -1,14 +1,15 @@
 module.exports = {
-    host: '127.0.0.1',
-    username: 'docker',
-    password: 'docker',
-    database: 'nodeauth',
+    host: 'localhost',
+    username: 'postgres',
+    password: 'admin',
+    database: 'postgres',
     dialect: 'postgres',
-    operatiorsAliases: false,
+    port: 5433,
+    operatorsAliases: false,
     logging: false,
     define: {
         timestamps: true,
         underscored: true,
         underscoredAll: true, //userEmail -> user_email
-    }
+    },
 };
