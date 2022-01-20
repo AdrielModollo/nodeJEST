@@ -22,6 +22,10 @@ yarn add jest -D
 
 yarn jest --init
 
+yarn add dotenv
+
+yarn add sqlite3 -D
+
 # Instalar todas as libs 
 
 yarn install

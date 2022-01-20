@@ -7,6 +7,6 @@ const pool = new Pool({
   port: 5433,
 })
 pool.query('SELECT NOW()', (err, res) => {
-  console.log('não conectado', err, res) 
+  console.log(err, res) 
   pool.end() 
 })

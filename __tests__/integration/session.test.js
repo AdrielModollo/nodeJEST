@@ -1,11 +1,17 @@
-describe('Authentication', () => {
-    it('should sum two number', () => {
-        const x = 2;
-        const y = 4;
+const { User } = require("../../src/app/models");
 
-        const sum = x + y;
-        
-        expect(sum).toBe(6); //toBe espera que o resultado seja verdadeiro e real.
+describe('Authentication', () => {
+    it('should register user', async () => {
+        const user = await User.create({
+            name: 'Adriel', 
+            email: 'adrielmodollo@outlook.com', 
+            password_hash: "123123"
+        });
+
+        console.log(user);
+
+        expect(user.email).toBe('adrielmodollo@outlook.com');
+    
     });
 });
 
